@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './App.scss';
 import {IndexRoutes} from './routes/IndexRoutes';
 import reportWebVitals from './reportWebVitals';
+import './App.scss';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

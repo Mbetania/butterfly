@@ -16,6 +16,7 @@ export const IndexRoutes = () => {
           <Route path='welcome' element={<Welcome client={clientRoutes} />} />
           <Route path='onboarding' element={<NavOnboarding client={clientRoutes}/>}> 
             <Route path='login' element={<Login/>} />
+            {/* <Route path=''/>  */}
           </Route>
         </Route>
       </Routes>
