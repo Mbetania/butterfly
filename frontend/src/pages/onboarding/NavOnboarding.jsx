@@ -4,7 +4,7 @@ import { Login } from './Login'
 
 export const NavOnboarding = ({ client }) => {
 return (
-    <main className='w-100 h-100 row'>
+    <main className='d-flex row w-100 h-100'>
         <CredentialsNavigation client={client} />
         <section className={`col-8 outlet-onboarding`} >
             falopa
@@ -17,12 +17,11 @@ return (
 
 const CredentialsNavigation = ({client}) => {
     return(
-        <nav className={`d-flex col-4 row pt-5`}>
+        <nav className='col-4 row pt-5'>
             <div className='col-2'>
-                betttt
             </div>
             <aside className='col-4'>
-                beeeeeee
+                imagen
             </aside>
             <NavSteps/>
         </nav>
